@@ -8,7 +8,7 @@ jump = keyboard_check_pressed(vk_space);
 //Reaction to input
 move = left + right;
 hsp = move * movespeed
-if (vsp < 5){
+if (vsp < 15){
 	vsp += grav;
 }
 
@@ -40,3 +40,7 @@ if (mouse_check_button_pressed(mb_left) && cooldown < 1){
 	cooldown = 60;
 }
 cooldown--;
+
+if keyboard_check_pressed(ord("R")){
+	game_restart();
+}
