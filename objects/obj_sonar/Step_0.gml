@@ -1,9 +1,7 @@
-//Collision
-/*if(place_meeting(x+speed, y, obj_wall)){
-	while(!place_meeting(x+sign(speed), y, obj_wall)){
-		x += sign(speed);
+/// @description Causes sonar to slowly fade away
+if(fade_out == true){
+	image_alpha-=.04;
+	if(image_alpha == 0){
+		instance_destroy();
 	}
-	move_bounce_solid(true)
-	//instance_create_layer(x, y, 1, obj_echo)
-	//instance_destroy();
 }
