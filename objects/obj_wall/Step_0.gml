@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description When object revealed, fades away over time
 if(image_alpha > 0.5){
 	image_alpha-= .05
 }
