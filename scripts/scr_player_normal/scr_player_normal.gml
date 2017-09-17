@@ -7,4 +7,5 @@ if (vsp < 15){
 }
 
 scr_shoot();
-scr_collide();
+scr_player_collide_wall();
+scr_player_collide_floor();
