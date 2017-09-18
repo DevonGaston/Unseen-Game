@@ -1,5 +1,6 @@
 /// @description Initialize player variables
 cooldown = 0;
+hp = 1
 grav = .6;
 hsp = 0;
 vsp = 0;
