@@ -1,9 +1,9 @@
 /// @description Player controls and physics
 
-/*switch(state){
+switch(state){
 	case states.normal: scr_player_normal(); break;
-	case states.shooting: scr_player_shooting(); break;
-}*/
+	case states.ledge_grab: scr_player_ledge_grab(); break;
+}
 
 scr_player_normal();
 

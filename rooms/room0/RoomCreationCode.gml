@@ -1,4 +1,4 @@
-/*enum states{
+enum states{
 	normal,
-	shooting
+	ledge_grab
 }

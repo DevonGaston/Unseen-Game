@@ -1,11 +1,18 @@
 scr_getinputs();
+
 //Reaction to input
 move = left + right;
 hsp = move * movespeed
+
+//Jumping
+if(place_meeting(x, y+1, obj_floor)){
+	vsp = jump * -jumpspeed;
+}
+
+//Falling
 if (vsp < 15){
 	vsp += grav;
 }
 
 scr_shoot();
-scr_player_collide_wall();
-scr_player_collide_floor();
+scr_player_collision_wall_floor();
