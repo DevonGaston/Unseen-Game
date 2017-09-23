@@ -6,5 +6,5 @@ hsp = 0;
 hsp_dir = 1;
 vsp = 0;
 jumpspeed = 6;
-movespeed = 3;
+movespeed = 1;
 state = states.normal

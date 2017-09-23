@@ -1,4 +1,7 @@
-scr_getinputs();
+//Player input
+var right = keyboard_check(ord("D"));
+var left = -keyboard_check(ord("A"));
+var jump = keyboard_check_pressed(vk_space);
 
 //Reaction to input
 move = left + right;

@@ -9,7 +9,9 @@ if (place_meeting(x+hsp, y, obj_wall)){
 		x += sign(hsp);
 	}
 	hsp = 0;
-	obj_wall.image_alpha = 1;
+	with(instance_nearest(x, y, obj_wall)){
+		image_alpha = 1;
+	}
 }
 x += hsp;
 
@@ -19,8 +21,7 @@ if (place_meeting(x, y+vsp, obj_floor)){
 		y += sign(vsp);
 	}
 	vsp = 0;
-	with(obj_floor){
-		image_alpha = other.image_alpha;
+	with(instance_nearest(x, y, obj_floor)){
 		image_alpha = 1;
 	}
 	
