@@ -31,8 +31,8 @@ y += vsp;
 //Collision End
 
 //Ledge grab; search for availible wall to grab onto
-var was_free = !position_meeting(x+(17*hsp_dir), yprevious-4, obj_wall);
-var not_free = position_meeting(x+(17*hsp_dir), y-4, obj_wall);
+var was_free = !position_meeting(x+(15*hsp_dir), yprevious-4, obj_wall);
+var not_free = position_meeting(x+(15*hsp_dir), y-4, obj_wall);
 var down_move = yprevious < y;
 if(was_free && not_free && down_move){
 	vsp = 0;
@@ -41,7 +41,7 @@ if(was_free && not_free && down_move){
 		x += hsp_dir;
 	}
 	
-	while(position_meeting(x+(17*hsp_dir), y-5, obj_wall)){
+	while(position_meeting(x+(15*hsp_dir), y-5, obj_wall)){
 		y -= 1;
 	}
 	state = states.ledge_grab;
