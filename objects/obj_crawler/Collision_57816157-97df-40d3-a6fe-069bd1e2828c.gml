@@ -1,2 +1,2 @@
 /// @description Insert description here
-game_restart();
+room_restart();
