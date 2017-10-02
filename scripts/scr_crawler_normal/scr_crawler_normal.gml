@@ -5,5 +5,6 @@ if (vsp < 15){
 	vsp += grav;
 }
 if(distance_to_object(obj_player) < 95){
+	chase = true;
 	state = c_state.chase;
 }
