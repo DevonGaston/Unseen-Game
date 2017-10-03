@@ -1,8 +1,8 @@
 {
-    "id": "bab848ba-f026-45f2-b1ed-f379d45267d0",
+    "id": "fc5cf852-1cc7-4222-a62f-792a6688deea",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall",
+    "name": "obj_ledge_L_1",
     "eventList": [
         
     ],
@@ -21,7 +21,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "solid": true,
-    "spriteId": "aa3bb549-deb8-4670-a57f-8f17af305c1a",
+    "solid": false,
+    "spriteId": "fd98e0c6-90e6-485b-ac8d-ede567528a79",
     "visible": true
 }
