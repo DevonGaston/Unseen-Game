@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1c6e5305-6aec-446c-8316-3ea08e9721de",
+            "Value": {
+                "id": "f5499022-ef50-420b-8784-85899ba62d5e",
+                "resourcePath": "objects\\obj_ledge\\obj_ledge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1df12d3b-e481-4e8d-965b-fc4b02be1e5d",
             "Value": {
                 "id": "b17795f9-cdbd-459d-961d-3d17c6fa71a5",
@@ -207,22 +215,6 @@
             }
         },
         {
-            "Key": "8f0a5a5b-e01b-4e2f-af6c-c7e19971360b",
-            "Value": {
-                "id": "48aaee2e-4514-40d1-8bd7-2c6b53b5ea40",
-                "resourcePath": "objects\\obj_ledge_R_2\\obj_ledge_R_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "96ea6514-68d3-4500-a8cc-6a838cd084cb",
-            "Value": {
-                "id": "5629ca66-00b1-42b6-ab10-4b6aca8b351b",
-                "resourcePath": "sprites\\spr_ledge_R_2\\spr_ledge_R_2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a4b3c054-2d5f-4170-9c9f-3f6f8cc2f681",
             "Value": {
                 "id": "79d24fa7-192f-4607-b31b-61dc2cf92e82",
@@ -259,14 +251,6 @@
             "Value": {
                 "id": "4697c732-dfb5-49d5-9e71-b98048af4c2b",
                 "resourcePath": "objects\\obj_ledge_L_2\\obj_ledge_L_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b1d56524-ca51-4329-a11f-331775e79223",
-            "Value": {
-                "id": "2d9065a9-8dba-4d41-b554-21be408c57d6",
-                "resourcePath": "objects\\obj_ledge_R_1\\obj_ledge_R_1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -356,14 +340,6 @@
                 "id": "8439382f-12a9-426b-b204-af934a9e6cb2",
                 "resourcePath": "objects\\obj_door\\obj_door.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e169084f-961c-4116-8683-4ce662fc4e84",
-            "Value": {
-                "id": "d53269bd-ff26-45fe-a090-e22ed03432c0",
-                "resourcePath": "sprites\\spr_ledge_R_1\\spr_ledge_R_1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
