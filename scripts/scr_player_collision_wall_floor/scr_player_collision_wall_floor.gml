@@ -33,7 +33,7 @@ y += vsp;
 //Ledge grab; search for availible wall to grab onto
 var was_free = !position_meeting(x+(20*hsp_dir), yprevious-4, obj_ledge);
 var not_free = position_meeting(x+(20*hsp_dir), y-4, obj_ledge);
-var down_move = yprevious < y;
+var down_move = vsp > 0;
 if(was_free && not_free && down_move){
 	vsp = 0;
 	hsp = 0;
