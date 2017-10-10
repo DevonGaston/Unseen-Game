@@ -32,8 +32,8 @@ y += vsp;
 
 //Ledge grab; search for availible wall to grab onto
 var height = bbox_bottom-bbox_top;
-var was_free = !place_meeting(x+(20*hsp_dir), y-height, obj_ledge);
-var not_free = place_meeting(x+(20*hsp_dir), y, obj_ledge);
+var was_free = !position_meeting(x+(20*hsp_dir), y-height, obj_ledge);
+var not_free = position_meeting(x+(20*hsp_dir), y, obj_ledge);
 var down_move = vsp > 0;
 if(was_free && not_free && down_move){
 	vsp = 0;
@@ -42,7 +42,7 @@ if(was_free && not_free && down_move){
 		x += hsp_dir;
 	}
 	
-	while(place_meeting(x+(20*hsp_dir), y, obj_ledge)){
+	while(position_meeting(x+(20*hsp_dir), y, obj_ledge)){
 		y -= 1;
 	}
 	state = states.ledge_grab;

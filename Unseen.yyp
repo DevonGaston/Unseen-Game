@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "477241b4-a50b-46d6-b5e5-195b1f4d89da",
+            "Value": {
+                "id": "ad761a69-da30-465e-a715-3d28a5e85bbf",
+                "resourcePath": "sprites\\spr_soundwave\\spr_soundwave.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49bf01f8-0cea-4a63-a8b6-41f80e922044",
             "Value": {
                 "id": "7be02448-7f3e-4e31-a5a3-e9cbb273f0a2",
@@ -236,6 +244,14 @@
                 "id": "67ec78a8-57fb-4d74-bd0c-5685e90f3314",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a93e387c-db61-4e7b-86fb-441066cd8725",
+            "Value": {
+                "id": "5e0f8c7f-73d8-4a5c-9746-14e2c97ab6e2",
+                "resourcePath": "objects\\obj_soundwave\\obj_soundwave.yy",
+                "resourceType": "GMObject"
             }
         },
         {
