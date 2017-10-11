@@ -1,7 +1,7 @@
 //Player input
-var right = keyboard_check(ord("D"));
-var left = -keyboard_check(ord("A"));
-var jump = keyboard_check_pressed(vk_space);
+	var right = keyboard_check(ord("D"));
+	var left = -keyboard_check(ord("A"));
+	var jump = keyboard_check_pressed(vk_space);
 
 //Reaction to input
 move = left + right;
@@ -13,7 +13,7 @@ if(place_meeting(x, y+1, obj_floor)){
 }
 
 //Falling
-if (vsp < 15){
+if (state != states.ledge_grab && !place_meeting(x, y+1, solid)){
 	vsp += grav;
 }
 
