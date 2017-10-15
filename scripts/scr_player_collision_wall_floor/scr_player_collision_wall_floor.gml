@@ -38,6 +38,7 @@ var down_move = vsp > 0;
 if(was_free && not_free && down_move){
 	vsp = 0;
 	hsp = 0;
+	movespeed = 0;
 	while(!place_meeting(x+hsp_dir, y, obj_ledge)){
 		x += hsp_dir;
 	}

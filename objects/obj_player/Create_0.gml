@@ -7,4 +7,5 @@ hsp_dir = 1;
 vsp = 0;
 jumpspeed = 6;
 movespeed = 1;
+face_right = false;
 state = states.normal

@@ -1,11 +1,18 @@
 //Player input
-	var right = keyboard_check(ord("D"));
-	var left = -keyboard_check(ord("A"));
-	var jump = keyboard_check_pressed(vk_space);
+var right = keyboard_check(ord("D"));
+var left = -keyboard_check(ord("A"));
+var jump = keyboard_check_pressed(vk_space);
 
 //Reaction to input
-move = left + right;
+var move = left + right;
 hsp = move * movespeed
+
+if(move > 0){
+	face_right = true;
+}
+else if(move < 0){
+	face_right = false;
+}
 
 //Jumping
 if(place_meeting(x, y+1, obj_floor)){
