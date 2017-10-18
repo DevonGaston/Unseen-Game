@@ -20,6 +20,9 @@ if (place_meeting(x, y+vsp, obj_solid)){
 	while(!place_meeting(x, y+sign(vsp), obj_solid)){
 		y += sign(vsp);
 	}
+	if(place_meeting(x, y+vsp, obj_floor) && vsp > 11){
+		hp -= 1;
+	}
 	vsp = 0;
 	with(instance_nearest(x, y, obj_floor)){
 		image_alpha = 1;

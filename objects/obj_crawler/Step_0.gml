@@ -10,9 +10,9 @@ if (place_meeting(x+hsp, y, obj_wall)){
 		x += sign(hsp);
 	}
 	hsp = 0;
-	if(state = c_state.chase){
+	if(image_alpha >= 0){
 		with(instance_nearest(x, y, obj_floor)){
-			image_alpha = 1;
+			image_alpha = obj_crawler.image_alpha;
 		}
 	}
 }
@@ -24,9 +24,9 @@ if (place_meeting(x, y+vsp, obj_floor)){
 		y += sign(vsp);
 	}
 	vsp = 0;
-	if(state = c_state.chase){
+	if(image_alpha >= 0){
 		with(instance_nearest(x, y, obj_floor)){
-			image_alpha = 1;
+			image_alpha = obj_crawler.image_alpha;
 		}
 	}
 	
