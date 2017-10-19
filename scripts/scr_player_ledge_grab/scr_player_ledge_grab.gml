@@ -24,5 +24,6 @@ if(climb){
 
 if(fall){
 	movespeed = 1;
+	y += 10;
 	state = states.normal;
 }

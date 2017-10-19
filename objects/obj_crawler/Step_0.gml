@@ -11,7 +11,7 @@ if (place_meeting(x+hsp, y, obj_wall)){
 	}
 	hsp = 0;
 	if(image_alpha >= 0){
-		with(instance_nearest(x, y, obj_floor)){
+		with(instance_nearest(x, y, obj_wall)){
 			image_alpha = obj_crawler.image_alpha;
 		}
 	}

@@ -7,7 +7,7 @@ if(image_alpha == 0.5){
 	fade_count--;
 }
 
-if(fade_count == 0){
+if(fade_count == 0 and image_alpha > min_fade){
 	image_alpha -= .01;
 }
 
