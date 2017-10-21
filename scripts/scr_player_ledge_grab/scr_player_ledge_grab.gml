@@ -1,5 +1,5 @@
 var climb = keyboard_check_pressed(vk_space);
-var fall = keyboard_check_pressed(vk_down);
+var fall = keyboard_check(ord("S"));
 
 with(instance_nearest(x,y,obj_ledge)){
 	image_alpha = 1;
