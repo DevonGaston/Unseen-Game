@@ -1,3 +1,3 @@
 /// @description Soundwave expands
-image_xscale *= 1.025;
-image_yscale *= 1.025;
+image_xscale *= x_expand;
+image_yscale *= y_expand;
