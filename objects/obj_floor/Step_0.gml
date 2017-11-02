@@ -1,12 +1,6 @@
 /// @description When object revealed, fades away over time
-if(image_alpha > 0.5){
-	image_alpha-= .05
-}
-
-if(image_alpha == 0.5){
-	fade_count--;
-}
-
-if(fade_count == 0){
-	image_alpha -= .01;
+event_inherited();
+var nearledge = instance_nearest(x,y,obj_ledge).image_alpha;
+if(nearledge == 1){
+	image_alpha = 1;	
 }

@@ -1,6 +1,6 @@
-/// @description Bounce off floor and let Step event know to make echo fade away
+/// @description Bounce off solid object and let Step event know to make echo fade away
 move_bounce_solid(true);
 image_angle = direction;
 speed = 2;
 fade_out = true;
-instance_create_depth(x,y,layer,obj_soundwave)
+//instance_create_depth(x,y,layer,obj_soundwave)
