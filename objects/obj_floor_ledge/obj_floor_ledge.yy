@@ -1,13 +1,13 @@
 {
-    "id": "af7e8f7e-f2b1-49dd-a204-240dbce2c809",
+    "id": "ff9edaf4-3d3e-450d-ae4c-4b28e84a9cd4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ledge_L_2",
+    "name": "obj_floor_ledge",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "1c6e5305-6aec-446c-8316-3ea08e9721de",
+    "parentObjectId": "1df12d3b-e481-4e8d-965b-fc4b02be1e5d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": true,
-    "spriteId": "f7f3b532-0c77-4350-bc22-dfa14d2fdc34",
+    "spriteId": "28954733-a37c-44d4-a129-17e904bd0b2b",
     "visible": true
 }
