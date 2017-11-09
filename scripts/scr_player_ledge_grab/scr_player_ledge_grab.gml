@@ -7,16 +7,16 @@ with(instance_nearest(x,y,obj_wall)){
 
 if(climb){
 	movespeed = 1;
-	with(instance_nearest(x,y,obj_ledge)){
-		if(object_index == obj_ledge_L_1){
+	with(instance_nearest(x,y,obj_wall)){
+		if(object_index == obj_wall_ledge){
 			obj_player.face_right = true
-			obj_player.x -= 32;
-			obj_player.y-=32;
+			obj_player.x += 32;
+			obj_player.y-=26;
 		}
 		else{
 			obj_player.face_right = false;
-			obj_player.x += 32;
-			obj_player.y-=32;
+			obj_player.x -= 32;
+			obj_player.y-=26;
 		}
 	}
 	state = states.normal;

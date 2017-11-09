@@ -1,3 +1,3 @@
 /// @description debug code: reveal all solids in room
-image_alpha = .5;
-min_fade = .5;
+image_alpha = 1;
+min_fade = 1;
