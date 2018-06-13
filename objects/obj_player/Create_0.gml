@@ -8,4 +8,4 @@ vsp = 0;
 jumpspeed = 6;
 movespeed = 1;
 face_right = false;
-state = states.normal
+state = 0

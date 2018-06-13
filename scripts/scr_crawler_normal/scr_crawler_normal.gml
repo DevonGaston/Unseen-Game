@@ -5,7 +5,7 @@ if (vsp < 15){
 }
 if(abs(obj_player.x-x) < 95){
 	chase = true;
-	state = c_state.chase;
+	state = 1;
 }
 
 if(image_alpha > 0.5){

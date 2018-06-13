@@ -1,3 +1,4 @@
+
 var climb = keyboard_check_pressed(vk_space);
 var fall = keyboard_check(ord("S"));
 
@@ -19,11 +20,12 @@ if(climb){
 			obj_player.y-=26;
 		}
 	}
-	state = states.normal;
+	state = 0;
 }
 
 if(fall){
 	movespeed = 1;
 	y += 10;
-	state = states.normal;
+	state = 0;
+
 }

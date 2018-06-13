@@ -1,2 +1,3 @@
-/// @description Destroys Soundwave
-instance_destroy();
+/// @description Insert description here
+// You can write your code in this editor
+can_die = true;

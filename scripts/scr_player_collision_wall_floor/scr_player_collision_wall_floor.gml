@@ -49,5 +49,5 @@ if(was_free && not_free && down_move){
 	while(position_meeting(x+(20*hsp_dir), y, obj_ledge)){
 		y -= 1;
 	}
-	state = states.ledge_grab;
+	state = 1;
 }

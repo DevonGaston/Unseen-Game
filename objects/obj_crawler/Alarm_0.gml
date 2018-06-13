@@ -1,3 +1,3 @@
 /// @description Crawler gives up chase
-state = c_state.idle
+state = 1;
 fade_count = room_speed * 5;

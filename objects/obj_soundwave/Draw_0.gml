@@ -1,5 +1,5 @@
 /// @description Draw soundwave
-image_alpha = image_alpha * 0.98
+image_alpha = image_alpha * 0.92
 if(image_alpha < 0.05){
 	instance_destroy()
 }else if(node != 0 and deadend = false){

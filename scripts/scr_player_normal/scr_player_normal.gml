@@ -20,7 +20,7 @@ if(place_meeting(x, y+1, obj_floor)){
 }
 
 //Falling
-if (state != states.ledge_grab && !place_meeting(x, y+1, solid)){
+if (state != 1 && !place_meeting(x, y+1, solid)){
 	vsp += grav;
 }
 
